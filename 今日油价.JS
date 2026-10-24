@@ -8,8 +8,8 @@
  * 0 8 * * * https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/scripts/oil_price.js, tag=今日油价, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/oil.png, enabled=true
  */
 
-// 默认广州
-var region = $prefs.valueForKey('oil_price_region') || "guangzhou";
+// 默认广东
+var region = $prefs.valueForKey('oil_price_region') || "guangdong";
 
 const query_addr = `http://m.qiyoujiage.com/${region}.shtml`;
 
